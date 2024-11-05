@@ -1,0 +1,129 @@
+:root	{
+    --botao-desligado: #003505;
+    --botao-ligado: #00740C;
+    --login-desligado: #D9D9D9;
+    --login-ligado: #9b9999;
+    --font-principal: "Luckiest Guy", cursive;
+
+ }
+ 
+ body{
+    margin: 0;
+    padding: 0;
+ }
+
+.cabecalho{
+    background-color: #000000ad;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+    height: 104px;
+    
+}
+.cabecalho_logo {
+    align-items: center;
+}
+
+.logo{
+    width: 90px;
+    margin-top: 5px;
+}
+
+.cabecalho_escrito{
+    color: rgb(255, 255, 255);
+    font-family: "Luckiest Guy", cursive;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 25px;
+    border: solid;
+    border-color: #000000;
+    border-radius: 20px;
+    border-width: 3px;
+    background-color: var(--botao-desligado);
+    padding: 10px 45px;
+    margin-top: 15px;
+}
+
+.cabecalho_link{
+    text-decoration: none;
+}
+
+.cabecalho_login {
+    font-family: "Actor", sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    border: solid;
+    border-radius: 15px;
+    border-width: 3px;
+    padding: 10px 20px;
+    margin-top: 23px;
+    background-color: var(--login-desligado);
+}
+
+.fundo {
+    width: auto;
+    background-image: url(/img/exponha_aq_fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+.cabecalho_escrito:hover {
+    background-color: var(--botao-ligado);
+}
+
+.cabecalho_login:hover {
+    background-color: var(--login-ligado);
+}
+
+.seja{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.seja_bem{
+    font-family: var(--font-principal);
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 60px;
+}
+
+.integrantes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.integrantes_grade {
+    background-color: #0000009f;
+    border: solid;
+    border-width: 3px;
+    padding: 15px 20px 0px 20px ;
+    border-radius: 25px;
+}
+
+.integrantes_nome {
+    font-family: var(--font-principal);
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    font-size: 18px;
+}
+.integrantes_tamanho{
+    width: 180px;
+}
+
+.tema{
+    text-align: center;
+    padding: 10px;
+    font-family: var(--font-principal);
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 23px;
+}

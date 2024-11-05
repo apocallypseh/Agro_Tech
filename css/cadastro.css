@@ -1,0 +1,13 @@
+.fieldset-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fieldset-container fieldset {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.fieldset-container fieldset:last-child {
+    margin-right: 0;
+}

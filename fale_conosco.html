@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fome</title>
+    <link rel="stylesheet" href="/css/fale_conosco.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="cabecalho_logo">
+                <img class="logo" src="/img/logo (1).png" alt="LOGO">
+            </div>
+            <div>
+                <a class="cabecalho_link" href="/index.html"><h1 class="cabecalho_escrito">nos conheça</h1></a>
+            </div>
+            <div>
+                <a class="cabecalho_link" href="/exponha_aqui.html"><h1 class="cabecalho_escrito">exponha aqui</h1></a>
+            </div>
+            <div>
+                <a class="cabecalho_link" href="/produtos.html"><h1 class="cabecalho_escrito">produtos</h1></a>
+            </div>
+            <div>
+                <a class="cabecalho_link" href="/fale_conosco.html"><h1 class="cabecalho_escrito">fale conosco</h1></a>
+            </div>
+            <div>
+                <a class="cabecalho_link" href="/login.html"><h1 class="cabecalho_login">Login</h1></a>
+            </div>
+        </div>
+       
+        <script src="/script.js"></script>
+
+    </header>
+
+    <body class="fundo">
+      <div class="caixa_preta">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <br />
+                <h6 class="alteracao_de_fonte">
+                  Dúvidas? Elogios? Críticas? Sugestões? Envie-nos uma mensagem pelo
+                  formulário abaixo que entraremos em contato.
+                </h6>
+                <form>
+                  <h6 class="alteracao_de_fonte">Nome</h6>
+                  <div class="was-validated">
+                    <input type="text" id="forNome" class="form-control" placeholder="Digite seu nome completo" />
+                    <div class="valid-feedback">Informação Válida</div>
+                    <div class="invalid-feedback">Por favor, escreva seu nome completo com sobrenome</div>
+                  </div>
+                  <br />
+                  <h6 class="alteracao_de_fonte">E-mail</h6>
+                  <div class="was-validated input-group">
+                    <span class="input-group-text">@</span>
+                    <label class="form-label" for="email"></label>
+                    <input type="text" id="email" class="form-control" placeholder="nome@email.com" />
+                    <div class="valid-feedback">Informação Válida</div>
+                    <div class="invalid-feedback">Por favor, escreva seu e-mail no formato nome@email.com para que possamos
+                      entrar em contato</div>
+                  </div>
+                  <br />
+                  <h6 class="alteracao_de_fonte">Fale Conosco</h6>
+                  <div class="was-validated">
+                    <textarea class="form-control" id="forMensagem" rows="7"
+                      placeholder="Escreva aqui sua mensagem..."></textarea>
+                    <div class="valid-feedback">Informação Válida</div>
+                    <div class="invalid-feedback">Por favor, escreva a mensagem que gostaria de nos enviar</div>
+                  </div>
+                  <br>
+      
+                </form>
+                <a onclick="alerta3()" ><button type="submit" class="btn btn-primary mt2">Enviar</button></a>
+                <br>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
